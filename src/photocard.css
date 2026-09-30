@@ -1,0 +1,16 @@
+.photo-card {
+    width: 100%;
+    height: auto;
+    border: 1px solid var(--border);
+    box-shadow: var(--shadow);
+    position: relative;
+    padding: 1em;
+}
+
+.photo-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative; 
+    margin: 0 0 1em 0;
+}

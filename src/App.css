@@ -182,3 +182,11 @@
     border-right-color: var(--border);
   }
 }
+
+.photo-card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-template-rows: auto;
+  gap: 2em;
+  margin: 1em 2em 0 2em;
+}
