@@ -14,3 +14,9 @@
     position: relative; 
     margin: 0 0 1em 0;
 }
+
+.photo-card h3 {
+    font-family: var(--heading);
+    font-weight: 750;
+    color: rgb(200,200,200);
+}

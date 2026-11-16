@@ -1,6 +1,6 @@
-import { useState } from 'react'
 import PhotoCard from './PhotoCard'
 import './App.css'
+import photoData from './photos.json'
 
 function App() {
 
@@ -9,9 +9,9 @@ function App() {
     <h1>Caspian Connexxions</h1>
     <p>Debbie Gomes is a photographer, librarian, and educator.</p>
     <div className = "photo-card-container">
-    {PhotoCard({ photo: { src: 'https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d', alt: 'A beautiful landscape', title: 'Landscape', description: 'A breathtaking view of the mountains during sunset.' } })}
-        {PhotoCard({ photo: { src: 'https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d', alt: 'A beautiful landscape', title: 'Landscape', description: 'A breathtaking view of the mountains during sunset.' } })}
-            {PhotoCard({ photo: { src: 'https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d', alt: 'A beautiful landscape', title: 'Landscape', description: 'A breathtaking view of the mountains during sunset.' } })}
+      {photoData.content.map((photo, index) => (
+        <PhotoCard key={photo.id} photo={photo} title = {photo.title} collection = {photo.collection} description = {photo.description} />
+      ))}
     </div>
    </>
   )

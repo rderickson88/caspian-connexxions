@@ -1,0 +1,28 @@
+{
+    "content": [
+        {
+            "id": "0001", 
+            "src": "https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d",
+            "alt": "A beautiful landscape",
+            "title": "Landscape",
+            "collection": "Mountains",
+            "description": "A breathtaking view of the mountains during sunset."
+        },
+        {
+            "id": "0002", 
+            "src": "https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d",
+            "alt": "A beautiful landscape",
+            "title": "Landscape",
+            "collection": "Mountains",
+            "description": "A breathtaking view of the mountains during sunset."
+        },
+        {
+            "id": "0003", 
+            "src": "https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d",
+            "alt": "A beautiful landscape",
+            "title": "Landscape",
+            "collection": "Mountains",
+            "description": "A breathtaking view of the mountains during sunset."
+        }
+    ]
+}
